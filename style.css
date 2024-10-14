@@ -1,0 +1,1087 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+    
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+*img{
+    user-select: none;         /* Impede a seleção de imagem */
+    pointer-events: none;      /* Impede qualquer interação do mouse com a imagem */
+    -webkit-user-drag: none;   /* Impede o arrastamento no WebKit */
+    position: relative;        /* Garante que a posição da imagem seja mantida */
+}
+
+body {
+    background-color: rgb(19, 19, 75);
+    overflow-x: hidden;
+}
+
+
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+} */
+
+/* imagem do fundo */
+.container .img2 img{
+    display: none;
+}
+
+.container .img1 img {
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+    
+    
+    
+}
+
+
+
+
+
+/* section header */
+
+.container .container1 .header {
+    gap: 890px;
+    display: flex;
+    position: relative;
+    margin-left: 15px; /* Espaçamento entre os ícones sociais */
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.container .container1 .header .pt1 {
+    display: flex;
+    gap: 40px;
+    
+    
+}
+
+.container .container1 .header .pt1 a {
+    text-decoration: none;
+    
+    pointer-events: auto;  /* Permitir clique em links */
+    
+}
+
+
+.container .container1 .header .pt1 h5{
+    color: rgb(194, 194, 194);
+
+}
+
+
+
+.container .container1 .header .pt2 {
+    display: flex;
+   
+}
+
+
+
+
+
+.container .container1 .header .pt2  {
+    gap:70px;
+}
+
+.container .container1 .header .pt2  .instagran {
+    width: 40px;
+}
+
+.container .container1 .header .pt2  .instagran a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.container .container1 .header .pt2  .instagran span {
+    color:rgb(194, 194, 194);
+ }
+
+ .container .container1 .header .pt2  .instagran span:hover {
+    color:white
+ }
+
+
+.container .container1 .header .pt2  .tiktok a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 7px;
+}
+
+
+.container .container1 .header .pt2  .tiktok span {
+   color:rgb(194, 194, 194);
+}
+
+.container .container1 .header .pt2  .tiktok span:hover {
+    color:white
+ }
+
+
+
+.container .container1 .header .pt2 .tiktok {
+    width: 40px;
+}
+
+.container .container1 .header .pt2  .instagran :hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    padding: 7px;
+    border-radius: 6px;
+    
+    
+}
+
+
+.container .container1 .header .pt2 .tiktok :hover{
+    background: linear-gradient(45deg, #25F4EE 0%, #FE2C55 50%, #000000 100%);
+    padding: 5px;
+    border-radius: 6px;
+    
+}
+
+.container .container1 .header .pt1  a h5 {
+    cursor: pointer;
+
+   
+}
+
+.container .container1 .header .pt1 a :hover{
+    color: aqua;
+
+   
+}
+
+
+
+
+
+
+
+
+/* section titulo */
+
+
+.container2 {
+    display: flex;
+    position: relative;
+}
+
+.container2 .section-principal {
+    margin-left: 90px;
+    margin-top: 150px;
+}
+
+.container2 .section-principal .titulo .h1 {
+    display: flex;
+    flex-direction: column; /* Organiza os h1 verticalmente */
+}
+
+.container2 .section-principal .titulo .highlight-container {
+    display: flex;
+    gap: 10px; /* Espaço entre SEGREDOS e DE UMA */
+    align-items: center; /* Alinha verticalmente o texto dentro do contêiner */
+}
+
+.container2 .section-principal .titulo .highlight {
+    color: rgb(0, 204, 255);
+    font-size: 50px; /* Define o tamanho da fonte */
+    margin: 0; /* Remove margens padrão */
+}
+
+.container2 .section-principal .titulo h1 {
+    margin: 0; /* Remove margens padrão */
+    font-size: 50px; /* Define o tamanho da fonte */
+}
+
+.container2 .section-principal .titulo p {
+    margin-top: 15px;
+}
+
+
+.container .container2 .section-principal .brilho{
+    display: none;
+}
+
+
+
+
+
+/* section botao */
+
+
+.container2 .section-principal .acao {
+    display: flex;
+    gap: 28px;
+    margin-top: 70px;
+}
+
+.container2 .section-principal .acao button {
+    cursor: pointer;
+    height: 48px;
+    width: 230px;
+    border-radius: 15px;
+    margin-top: 10px;
+    background: radial-gradient(circle, #28af8d, #32d362);
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave para cor e transformação */
+    border: none;
+}
+
+.container2 .section-principal .acao .prova {
+    box-shadow: 0 0 15px rgba(4, 235, 243, 0.7); /* Adiciona o brilho */
+    margin-top: 10px;
+    border-radius: 12px;
+    background-color: black;
+    height: 45px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .section-principal .acao .prova img {
+    position: relative;
+    height: 40px;
+    width: auto;
+
+    
+}
+
+
+
+
+.container2 .section-principal .acao button:hover {
+    background: radial-gradient(circle, #32d362, #28af8d); /* Cor do botão ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse (opcional) */
+    transform: scale(1.05); /* Efeito de leve aumento no tamanho do botão ao passar o mouse */
+}
+
+.container .container2 .section-img {
+    margin-left: 180px;
+    margin-top: 90px;
+
+   
+}
+
+.container .container2 .section-img img {
+    height: 490px;
+    width: auto;
+
+    
+}
+
+
+.container .container2 .section-principal .banner img{
+    display: none;
+}
+
+
+/*prova social */
+
+
+
+
+
+.social-proof {
+    height: 680px; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 43px;
+    width: 100%;
+    background-color: #000000;
+    padding: 20px;
+    align-items: center;
+}
+
+
+.social-proof .titulo p {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    
+    
+}
+
+.social-proof .grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Define duas colunas de largura igual */
+    gap: 80px; /* Espaçamento entre os itens */
+    font-size: 18px;
+    width: 1100px;
+    height: 400px;
+   
+    
+    
+}
+
+.social-proof .grid .d1 img {
+    margin-bottom: 140px;
+    margin-right: 400px;
+    position: absolute;
+    height: 60px;
+    width: auto;
+
+  
+}
+
+.social-proof .grid .d2 img {
+    margin-bottom: 140px;
+    margin-right: 400px;
+    position: absolute;
+    height: 60px;
+    width: auto;
+
+
+    
+
+}
+
+.social-proof .grid .d3 img {
+    margin-bottom: 120px;
+    margin-right: 400px;
+    position: absolute;
+    height: 60px;
+    width: auto;
+
+
+
+}
+
+
+.social-proof .grid .d4 img {
+    margin-bottom: 120px;
+    margin-right: 400px;
+    position: absolute;
+    height: 60px;
+    width: auto;
+
+    
+}
+
+
+
+
+.social-proof .grid .d1,
+.social-proof .grid .d2,
+.social-proof .grid .d3,
+.social-proof .grid .d4 {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+/* beneficios */
+
+
+
+
+
+
+.benefits{
+    display: flex;
+    
+    justify-content: center;
+    gap: 100px;
+}
+
+.benefits .image-monster img {
+    position: relative;
+    padding: 0px;
+    margin-left: -160px;
+    
+    height: 390px; /* Corrigi a altura para 60px, ajustável conforme necessário */
+    width: auto;
+    margin-top: 90px;
+    margin-right: 200px;
+
+
+}
+
+.benefits .container{
+    margin-top: 190px;
+    font-size: 20px;
+    position: relative;
+    margin-left: -60px; /* Use um valor negativo para mover para a esquerda */
+    padding: 0px;
+    
+    
+}
+
+.benefits .container h3{
+    font-size: 18px;
+    
+    margin-left: -140px;
+    
+}
+
+.benefits .container ul{
+    padding-top: 16px;
+   
+    margin-left: -80px;
+    
+}
+
+
+.benefits .brilho{
+    margin-bottom: 100px;
+    
+}
+
+
+.benefits .brilho img {
+    height: 600px;
+    position: absolute;
+    opacity: 40%;
+    margin-left: -160px;
+
+
+    
+    
+}
+
+
+
+
+
+/* hero */
+
+
+
+
+
+.hero {
+    display: flex;
+    margin-top: 30px;
+
+
+    display: flex;
+    
+    justify-content: center;
+    gap: 100px;
+}
+
+.hero .container{
+
+    padding-top: 150px;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+
+}
+
+
+.hero .container p{
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+.hero .imagem-paisagem img {
+    position: relative;
+    padding-top: 30px;
+    /* padding-left: 160px; */
+    height: 390px; /* Corrigi a altura para 60px, ajustável conforme necessário */
+    width: auto;
+
+
+   
+    
+}
+
+
+.hero .brilho{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: -70px; /* Ajuste esse valor conforme necessário */
+    
+}
+
+.hero .brilho img {
+    
+    height: 600px;
+    width: auto;
+    opacity: 40%;
+
+
+    
+}
+
+
+
+
+
+/* sobre */
+
+
+.sobre {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.sobre .container{
+    box-shadow: 0px 6px 36px rgba(0, 162, 255, 0.192);
+    display: flex;
+    height: 730px;
+    width: 88%;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+
+.sobre .container1{
+    
+    padding: 40px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sobre .container2{
+    width:auto;
+    height:560px;
+    
+    /* margin: 100px; */
+    margin-left: 60px;
+    margin-top: 85px;
+    box-shadow: 0px 1px 36px rgba(0, 162, 255, 0.192);
+    
+
+}
+
+
+
+
+footer{
+    height: 140px;
+    /* height: 230px; */
+    background-color: #000000;
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+
+footer p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 19px;
+}
+
+
+footer .container .pagamento{
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+    display: flex;
+    
+    
+}
+
+
+
+footer .container .pagamento .img1, .img2, .img3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer .container .pagamento img {
+    
+    position: relative;
+   
+}
+
+
+footer .container .pagamento .img1 img{
+    height: 36px; 
+    width:36px; 
+    /* margin-left: 30px; */
+    display: block;
+}
+    
+
+
+footer .container .pagamento .img2 img{
+    height: 50px; 
+    width: 50px; 
+    /* margin-left: 25px; */
+    display: block;
+    
+}
+
+
+footer .container .pagamento .img3 img{
+    height: 36px; 
+    width: 36px; 
+    /* margin-left: 30px; */
+    
+
+}
+
+
+
+
+
+footer .container .pagamento .img1 h3{
+    /* margin-left: 12px; */
+    
+    align-items: center;
+}
+
+footer .container .pagamento .img2 h3{
+    /* margin-left: 9px; */
+    
+    align-items: center;
+}
+
+footer .container .pagamento .img3 h3{
+    /* margin-left: 12px; */
+    
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* Media Queries para telas pequenas */
+@media (max-width: 768px) {
+    /* Header */
+    
+
+    .apenas{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .um{
+        margin-left: 260px;
+    }
+    .container{
+
+        /* height: 640px; */
+        overflow: hidden;
+    }
+    
+    .container .img1 img {
+        display: none; /* Oculta img1 em telas pequenas */
+        overflow: hidden;
+    }
+    
+
+    .container .img2 img {
+        display: block; 
+        height: 1600px; 
+        width: 100%; 
+        max-width: 400px;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .container .container1 .header {
+        
+        display: flex;
+        gap: 20px;
+    }
+
+    .container .container1 .header .pt1 {
+        display: none;
+    }
+
+    .container .container1 .header .pt2 {
+        gap: 10px;
+    }
+
+
+    .container .container1 .header .pt2  {
+        gap:60px;
+    }
+
+
+
+
+    /* Section Principal */
+   
+
+
+    .container2 .section-principal {
+        margin-top: 30px;
+        text-align: center;
+        width: 100%;
+        max-width: 400px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        
+    }
+
+    .container2 .section-principal .titulo{
+        display: flex;
+        margin-left: -50px;
+        width: 100%;
+        max-width: 400px;
+        margin-top: 40px;
+    }
+
+    .container2 .section-principal .titulo .h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Alinhamento interno da div .h1 */
+        
+    }
+
+    .container2 .section-principal .titulo .h1 .desvendando{
+        margin-left: 12px;
+    }
+
+    .container2 .section-principal .titulo .h1 .noite h1{
+        margin-left: -15px;
+    }
+
+    .container2 .section-principal .titulo .h1 h1 {
+        width: 100vh;
+        max-width: 400px;
+        font-size: 30px;
+        display: flex;
+        
+        
+
+    }
+
+
+    .container .section-principal .titulo .h1 .highlight-container .de-uma{
+        margin-right: 220px;
+        
+    }
+
+
+
+    .container .section-principal .titulo .h1 .highlight-container {
+        gap: 0px;
+        display: flex;
+        /* flex-direction: column; */
+        width: 100vh;
+        max-width: 400px;
+    }
+
+
+    .container .section-principal .titulo .h1 .highlight-container .de-uma{
+        display: flex;
+        margin-right: 30px;
+        
+    }
+
+    .container2 .section-principal .titulo p {
+        display: none;
+    }
+
+
+
+    .container .container2 .section-img img {
+        
+        position: relative;
+        margin-bottom: 80px;
+        margin-top: 60px;
+        position: relative;
+        margin-left: -589px;
+        height: 290px;
+        width: auto;
+        overflow: hidden;
+
+        max-width: 400px;
+    }
+
+
+    .container .container2 .section-principal .brilho {
+        display: block; /* Certifique-se de que o brilho é exibido */
+        position: relative; /* Use 'relative' para evitar sobreposição indesejada */
+        /* margin-left: 0; 
+        margin-top: -20px;  */
+        /* height: 300px; 
+        width: auto; */
+        margin-left: 10px;
+        opacity: 0.4; /* Transparência para não sobrecarregar a imagem */
+        width: 100vw;
+        max-width: 400px;
+    }
+
+    .container .container2 .section-principal .brilho img{
+        height: 390px;
+        margin-right: 100px;
+        margin-left: -100px;
+        overflow: hidden;
+        max-width: 400px;
+        
+    }
+    
+    
+    
+    /* .container .container2 .section-principal .banner img{
+        padding: 0px;
+        position: relative;
+        
+        height: 90px;
+        width: auto;
+    } */
+    
+    
+
+
+
+
+
+    .container2 .section-principal .acao {
+        position: relative;
+        margin-right: 180px;
+        margin-top: -70px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+    .container2 .section-principal .acao button{
+        height: 38px;
+        width: 200px;
+        max-width: 400px;
+    }
+
+    .container2 .section-principal .acao .prova {
+        height: auto;
+        width: auto;
+        max-width: 400px;
+    }
+
+    .container2 .section-principal .acao .prova img{
+        height: 35px;
+        width: auto;
+        overflow: hidden;
+        max-width: 400px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Prova social */
+    .social-proof {
+        padding: 10px;
+        height: 670px;
+        position: relative;
+        max-width: 400px;
+    }
+
+    .social-proof .grid {
+        grid-template-columns: 1fr; /* Uma coluna para telas pequenas */
+        gap: 30px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    
+
+    .social-proof .titulo p{
+        margin-top: 30px;
+    }
+
+    .social-proof .grid .d1, 
+    .social-proof .grid .d2, 
+    .social-proof .grid .d3, 
+    .social-proof .grid .d4 {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        max-width: 400px;
+    }
+
+
+
+
+    .social-proof .grid .d1 img{
+        margin-left: 70px;
+        margin-top: 40px;
+        height: 40px;
+        width: auto;
+        overflow: hidden;
+    } 
+    .social-proof .grid .d2 img{
+        margin-left: 70px;
+        margin-top: 30px;
+        height: 40px;
+        width: auto;
+        overflow: hidden;
+    } 
+    .social-proof .grid .d3 img{
+        margin-left: 70px;
+        margin-top: 10px;
+        height: 40px;
+        width: auto;
+        overflow: hidden;
+    }
+    .social-proof .grid .d4 img {
+        margin-left: 70px;
+        margin-top: 40px;
+        height: 40px;
+        width: auto;
+        overflow: hidden;
+    }
+
+
+
+
+
+
+    
+    /* Benefícios */
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        height: 520px;
+        max-width: 400px;
+    }
+
+    .benefits .image-monster img {
+        height: 290px;
+        width: auto;
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        max-width: 400px;
+    }
+
+    .benefits .container {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .benefits .container h3 {
+        font-size: 20px;
+        padding-left: 16px;
+    }
+
+    .benefits .container ul {
+        list-style-type: lower-alpha;
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    .benefits .brilho {
+        display: none;
+    }
+
+    /* Hero */
+    .hero {
+        display: none;
+    }
+
+    /* Sobre */
+    .sobre {
+        height: auto;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        max-width: 400px;
+    }
+
+    .sobre .container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 88%;
+        background-color: #000000;
+        border-radius: 15px;
+    }
+
+    .sobre .container1 {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .sobre .container1 h1 {
+        margin-left: 0px;
+    }
+
+    .sobre .container2 {
+        width: auto;
+        height: auto;
+        position: relative;
+        margin-left: 20px;
+        margin-top: 20px;
+        box-shadow: none;
+        padding: 40px;
+    }
+
+    .sobre .container2 video {
+        width: auto;
+        height: 420px;
+        max-width: 400px;
+        box-shadow: 0px 1px 36px rgba(0, 162, 255, 0.192);
+    }
+
+    /* Footer */
+    footer {
+        width: auto;
+        height: 160px;
+        margin-top: 20px;
+    }
+
+    /* Ajuste global para evitar rolagem horizontal */
+    body {
+        overflow-x: hidden;
+    }
+}
